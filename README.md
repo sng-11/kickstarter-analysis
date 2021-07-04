@@ -15,6 +15,8 @@ The purpose of this analysis project is to isolate data of theater campaigns, vi
 
 Since the given raw data contains an excess of information that does not pertain to Louise (e.g. campaigns for mobile games, food trucks etc.), it will be useful to create a pivot table so that we can view and filter data as we please. To create a pivot table that visualizes theater outcomes by launch date, refer to the figure of how the different variables are organized for the table. First, we want to only view theater outcomes so there should be a filter for the parent category. Then we would like to filter by year if needed. For the rows ,which correspond to the x-axis of the chart, we are interested in what month the launch date was (and the default setting separates based on month). Finally, we are interested in how many campaigns were successful, failed, or canceled and viewing that in the columns and values (which corresponds to the y-axis) gives us our final table and chart.
 
+![alt text](https://github.com/[sng-11]/[kickstarter-analysis]/blob/[main]/pivot_launch date.png?raw=true)
+
 ### Analysis of Outcomes Based on Goals
 
 To chart goal value as the independent variable (i.e. the x-axis) will require us to assign numerical ranges in $5000 increments. This will allow us to group together data in a logical manner. In order to make Excel count the number of plays that succeed, fail, or get canceled based on its goal value, we use the COUNTIFS function. The following example is for counting the number of successful play campaign outcomes for those with goal of $0 to $999:
