@@ -15,9 +15,7 @@ The purpose of this analysis project is to isolate data of theater campaigns, vi
 
 Since the given raw data contains an excess of information that does not pertain to Louise (e.g. campaigns for mobile games, food trucks etc.), it will be useful to create a pivot table so that we can view and filter data as we please. To create a pivot table that visualizes theater outcomes by launch date, refer to the figure of how the different variables are organized for the table. First, we want to only view theater outcomes so there should be a filter for the parent category. Then we would like to filter by year if needed. For the rows ,which correspond to the x-axis of the chart, we are interested in what month the launch date was (and the default setting separates based on month). Finally, we are interested in how many campaigns were successful, failed, or canceled and viewing that in the columns and values (which corresponds to the y-axis) gives us our final table and chart.
 
-pivot_launch date.png
-
-![alt text](https://github.com/[sng-11]/[kickstarter-analysis]/blob/[main]/pivot_launch date.png?raw=true)
+![alt text](https://user-images.githubusercontent.com/84816495/124400747-d7769000-dcf2-11eb-98ab-12e631862af3.png)
 
 ### Analysis of Outcomes Based on Goals
 
